@@ -41,10 +41,13 @@ body {
   margin: 0;
   padding: 0px;
 }
-.list-item, .list-title {
+.list-item,
+.list-title {
   list-style: none;
 }
-.task_user-input,.list-item__checkbox,.page-main__btn{
+.task_user-input,
+.list-item__checkbox,
+.page-main__btn{
   outline: none;
 }
 .page-main__btn {
