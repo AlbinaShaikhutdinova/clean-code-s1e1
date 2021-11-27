@@ -42,7 +42,7 @@ body {
   padding: 0px;
 }
 .list-item,
-.list-title {
+.section-title {
   list-style: none;
 }
 .task_user-input,
@@ -63,7 +63,7 @@ body {
   color: #3a3a3a;
 }
 /* Heading */
-.list-title,
+.section-title,
 .input-content__input-label {
   color: #333;
   font-weight: 700;
