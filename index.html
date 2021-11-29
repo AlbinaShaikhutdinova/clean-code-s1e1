@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <header class="page-header">
-      <img class="page-header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
-      <a class="page-header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <header class="header">
+      <img class="header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
-    <main class="page-main">
+    <main class="main">
       <div class="input-content">
         <label class="input-content__input-label" for="new-task">Add Item</label>
         <div class="input-content__wrapper">
-          <input id="new-task" class="input-content__task task_user-input" type="text">
-          <button class="page-main__btn input-content__btn">Add</button>
+          <input id="new-task" class="input-content__input user-input" type="text">
+          <button class="button input-content__btn">Add</button>
         </div>
       </div>
       <h3 class="section-title">Todo</h3>
@@ -23,18 +23,18 @@
         <li class="task-list__item list-item">
           <input type="checkbox" class="list-item__checkbox">
           <label class="list-item__input-label">Pay Bills</label>
-          <input type="text" class="list-item__task task_user-input">
-          <button class="page-main__btn list-item__edit-btn">Edit</button>
-          <button class="page-main__btn list-item__delete-btn delete-btn">
+          <input type="text" class="list-item__input user-input">
+          <button class="button list-item__edit-btn">Edit</button>
+          <button class="button list-item__delete-btn delete-btn">
             <img class="delete-btn__img" src="./remove.svg">
           </button>
         </li>
-        <li class="task-list__item task-list__item_editing list-item">
+        <li class="task-list__item task-list__item_state_edit list-item">
           <input type="checkbox" class="list-item__checkbox">
           <label class="list-item__input-label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="list-item__task task_user-input">
-          <button class="page-main__btn list-item__edit-btn">Save</button>
-          <button class="page-main__btn list-item__delete-btn delete-btn">
+          <input type="text" value="Go Shopping" class="list-item__input user-input">
+          <button class="button list-item__edit-btn">Save</button>
+          <button class="button list-item__delete-btn delete-btn">
             <img class="delete-btn__img" src="./remove.svg">
           </button>
         </li>
@@ -44,9 +44,9 @@
         <li class="task-list__item list-item">
           <input type="checkbox" class="list-item__checkbox" checked>
           <label class="list-item__input-label">See the Doctor</label>
-          <input type="text" class="list-item__task task_user-input">
-          <button class="page-main__btn list-item__edit-btn">Edit</button>
-          <button class="page-main__btn list-item__delete-btn delete-btn">
+          <input type="text" class="list-item__input user-input">
+          <button class="button list-item__edit-btn">Edit</button>
+          <button class="button list-item__delete-btn delete-btn">
             <img class="delete-btn__img" src="./remove.svg">
           </button>
         </li>
